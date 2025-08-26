@@ -27,5 +27,5 @@ if ($q !== '') {
 }
 $sql .= " ORDER BY nome ASC";
 
-list($rows,$total,$page,$perPage) = paginate_query($sql, $params, $pdo, intval($_GET['page'] ?? 1), 10);
+
 ?>
